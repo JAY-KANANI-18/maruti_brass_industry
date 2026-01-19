@@ -32,10 +32,50 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+91 9824206708</p>
-                    <p>+91 8347549511</p>
+                    <p>+91 3333333333</p>
+                    <p>+91 2222222222</p>
                   </div>
                 </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="item md-mb50">
+              <div className="title">
+                <h5>Quick Links</h5>
+              </div>
+              <ul>
+                <li>
+                  <Link href="#">
+                    <a>Home</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <a>About Us</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <a>Services</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <a>Portfolio</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <a>Blog</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#">
+                    <a>Contact Us</a>
+                  </Link>
+                </li>
+                
               </ul>
             </div>
           </div>
@@ -69,14 +109,15 @@ const Footer = ({ classText }) => {
               </div>
               <div>
               <li>
-                  <div className="subscribe">
+                  <div className="subscribe mt-4">
                     <input type="text" placeholder="Type Your Email" />
                     <span className="subs pe-7s-paper-plane"></span>
                   </div>
                 </li>
               </div>
               <div className="copy-right">
-                <p>© 2026 Maruti Brass Industry. All rights reserved.</p>
+                <p>© 2026 Maruti Brass Industry. </p>
+                <p>All rights reserved.</p>
               </div>
             </div>
           </div>

@@ -1,16 +1,16 @@
-import React from "react";
+﻿import React from "react";
 import introData from "../../data/Intro-with-horizontal.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../Split";
 import Link from "next/link";
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
+import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
 
-SwiperCore.use([Navigation, Pagination, Parallax]);
+SwiperCore.use([Navigation, Pagination, Parallax, Autoplay]);
 
 const IntroWithHorizontal = () => {
   const [load, setLoad] = React.useState(true);
@@ -34,6 +34,11 @@ const IntroWithHorizontal = () => {
           <Swiper
             speed={1000}
             parallax={true}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
             navigation={{
               prevEl: navigationPrevRef.current,
               nextEl: navigationNextRef.current,
@@ -146,3 +151,4 @@ const IntroWithHorizontal = () => {
 };
 
 export default IntroWithHorizontal;
+

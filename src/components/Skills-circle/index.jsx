@@ -19,7 +19,7 @@ const SkillsCircle = () => {
   return (
     <section
       className="skills-circle section-padding bg-img parallaxie"
-      style={{ backgroundImage: "url(/assets/img/1.jpg)" }}
+      style={{ backgroundImage: "url(/assets/img/home/metrics.png)" }}
       data-overlay-dark="7"
     >
       <div className="container">

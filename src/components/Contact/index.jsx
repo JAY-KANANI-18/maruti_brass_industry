@@ -11,7 +11,7 @@ const Contact = () => {
               className="col-lg-5 col-md-6 contact-form wow fadeInDown"
               data-wow-delay=".3s"
             >
-              <form id="contact-form" method="post" action="contact.php">
+              <form id="contact-form" method="post" action="">
                 <div className="section-head">
                   <h6>Contact Us</h6>
                   <h4 className="playfont">Get In Touch</h4>
@@ -63,7 +63,7 @@ const Contact = () => {
         </div>
         <div
           className="bg-img"
-          style={{ backgroundImage: "url(/assets/img/2.jpg)" }}
+          style={{ backgroundImage: "url(/assets/img/home/contact.png)" }}
         ></div>
       </section>
     </>

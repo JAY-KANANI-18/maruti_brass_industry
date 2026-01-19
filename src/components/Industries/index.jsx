@@ -17,7 +17,7 @@ const Industries = () => {
         <div className="row">
           {industries.map((it) => (
             <div className="col-lg-4 col-md-6 item-bx" key={it.id}>
-              <div className="item-bx bg-img wow fadeInUp" data-wow-delay=".3s" style={{ backgroundImage: "url(/assets/img/01.jpg)" }}>
+              <div className="item-bx bg-img wow fadeInUp" data-wow-delay=".3s" style={{ backgroundImage: "url(" + it.image + ")" }}>
                 <h6 className="mb-10">{it.name}</h6>
                 <p>{it.description}</p>
               </div>

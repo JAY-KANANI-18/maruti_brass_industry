@@ -1,10 +1,10 @@
 {
-  "image": "/assets/img/slid/2.jpg",
+  "image": "/assets/img/home/usp1.png",
   "services": [
     {
       "id": "01",
       "title": "Certified Excellence",
-      "content": "ISO 9001:2015, IATF 16949:2016 & ZED Bronze certified with rigorous quality processes ensuring zero defects."
+      "content": "ISO 9001:2015, IATF 16949:2016 & ZED Bronze certified with  quality processes ensuring zero defects."
     },
     {
       "id": "02",

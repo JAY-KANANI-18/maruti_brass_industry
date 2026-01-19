@@ -27,12 +27,11 @@ const Home1 = () => {
       <CTA />
       <VisionMissionValues />
       <Portfolio1 />
-      <Downloads />
       <Industries />
       <SkillsCircle />
       <Testimonials />
       <Team1 />
-      <Blogs1 />
+      {/* <Blogs1 /> */}
       <Contact />
     </LightLayout>
   );
