@@ -1,0 +1,14 @@
+[
+  {"id":1, "name":"Automobile", "description":"Precision automotive components for engine, transmission, and electrical systems."},
+  {"id":2, "name":"Shipping", "description":"Marine-grade brass components for maritime and offshore applications."},
+  {"id":3, "name":"Aviation & Aerospace", "description":"High-precision aerospace components meeting strict aviation standards."},
+  {"id":4, "name":"Renewable Energy", "description":"Solar and wind energy components for sustainable power generation."},
+  {"id":5, "name":"Sanitary", "description":"Hygienic brass fittings and components for plumbing and sanitary systems."},
+  {"id":6, "name":"Plastic & Rubber", "description":"Specialized components for plastic injection molding and rubber processing."},
+  {"id":7, "name":"Oil & Gas", "description":"Corrosion-resistant components for petroleum and natural gas applications."},
+  {"id":8, "name":"Electricals & Power", "description":"High-conductivity electrical components and power distribution parts."},
+  {"id":9, "name":"Pneumatic", "description":"Precision pneumatic fittings and air handling system components."},
+  {"id":10, "name":"Agriculture", "description":"Durable agricultural equipment components and irrigation system parts."},
+  {"id":11, "name":"EV (Electric Vehicles)", "description":"Advanced components for electric vehicle charging and power systems."},
+  {"id":12, "name":"Industrial Manufacturing", "description":"Custom industrial components for various manufacturing applications."}
+]

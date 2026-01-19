@@ -1,0 +1,25 @@
+{
+  "image": "/assets/img/slid/2.jpg",
+  "services": [
+    {
+      "id": "01",
+      "title": "Certified Excellence",
+      "content": "ISO 9001:2015, IATF 16949:2016 & ZED Bronze certified with rigorous quality processes ensuring zero defects."
+    },
+    {
+      "id": "02",
+      "title": "Advanced Manufacturing",
+      "content": "State-of-the-art CNC and automatic machinery delivering precision to ±0.01mm tolerances."
+    },
+    {
+      "id": "03",
+      "title": "A-grade Vendor Rating",
+      "content": "Consistent 'A grade vendor rating' from top OEMs, driven by a zero-defect quality commitment."
+    },
+    {
+      "id": "04",
+      "title": "Manufacturing Excellence",
+      "content": "Proven track record of quality, innovation and precision engineering across industries."
+    }
+  ]
+}

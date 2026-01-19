@@ -1,0 +1,18 @@
+{
+  "title": {
+    "first": "Maruti Brass Industry",
+    "second": "Precision Manufacturing Excellence"
+  },
+  "image": "/assets/img/exp.jpg",
+  "content": "IATF 16949:2016 & ISO 9001:2015 certified manufacturer and exporter of precision brass components based in Jamnagar. With 30+ years of industry experience, we deliver high-quality products to global industries including automotive, aerospace, sanitary, and more.",
+  "exp": {
+    "nmb": 30,
+    "since": 1996
+  },
+  "numbers": [
+    { "id": 1, "number": 40, "name": "CLIENTS" },
+    { "id": 2, "number": 50, "name": "ADVANCED MACHINERY" },
+    { "id": 3, "number": 30, "name": "YEARS EXPERIENCE" },
+    { "id": 4, "number": 5, "name": "M+ PARTS MONTHLY" }
+  ]
+}

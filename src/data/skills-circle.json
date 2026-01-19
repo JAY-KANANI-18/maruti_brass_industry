@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "QUALITY INSPECTION", "val": 100 },
+  { "id": 2, "name": "SPC PROCESS CONTROL", "val": 95 },
+  { "id": 3, "name": "CNC PRECISION", "val": 98 },
+  { "id": 4, "name": "ON-TIME DELIVERY", "val": 97 }
+]

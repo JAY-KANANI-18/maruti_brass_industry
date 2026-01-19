@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/team/1.jpg",
+    "facebook": "#",
+    "twitter": "#",
+    "behance": "#",
+    "linkedin": "#",
+    "username": "Harshil Chhapia",
+    "usertitle": "Marketing Executive",
+    "phone": "+91 8347549511",
+    "email": "chhapiah@gmail.com"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/team/2.jpg",
+    "facebook": "#",
+    "twitter": "#",
+    "behance": "#",
+    "linkedin": "#",
+    "username": "Sandip Chhapia",
+    "usertitle": "CEO & Founder",
+    "phone": "+91 9824206708",
+    "email": "sandipchhapia2001@gmail.com"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/team/3.jpg",
+    "facebook": "#",
+    "twitter": "#",
+    "behance": "#",
+    "linkedin": "#",
+    "username": "Team Member",
+    "usertitle": "Engineering"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/team/4.jpg",
+    "facebook": "#",
+    "twitter": "#",
+    "behance": "#",
+    "linkedin": "#",
+    "username": "Team Member",
+    "usertitle": "Quality Assurance"
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "filtersName": [
+    { "id": 1, "name": "Inserts", "filterClass": ".inserts" },
+    { "id": 2, "name": "Terminals", "filterClass": ".terminals" },
+    { "id": 3, "name": "Fittings", "filterClass": ".fittings" },
+    { "id": 4, "name": "Forging", "filterClass": ".forging" }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "/assets/img/portfolio/mas/01.jpg",
+      "title": "Brass Hex Parts",
+      "tag": "Hex components",
+      "filterClass": "fittings"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/portfolio/mas/02.jpg",
+      "title": "Brass Special Hex Inserts",
+      "tag": "Inserts",
+      "filterClass": "inserts"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/portfolio/mas/03.jpg",
+      "title": "Brass Electrical Terminal Parts",
+      "tag": "Electrical terminals",
+      "filterClass": "terminals"
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/portfolio/mas/04.jpg",
+      "title": "Brass Nickel Plated Terminal",
+      "tag": "Nickel plated",
+      "filterClass": "terminals"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/portfolio/mas/05.jpg",
+      "title": "Brass Forging Components",
+      "tag": "Forging",
+      "filterClass": "forging"
+    },
+    {
+      "id": 6,
+      "image": "/assets/img/portfolio/mas/06.jpg",
+      "title": "Brass Hex Critical 1/8\" NPT Thread",
+      "tag": "Threaded parts",
+      "filterClass": "fittings"
+    },
+    {
+      "id": 7,
+      "image": "/assets/img/portfolio/mas/07.jpg",
+      "title": "Brass Rivets",
+      "tag": "Rivets",
+      "filterClass": "fittings"
+    },
+    {
+      "id": 8,
+      "image": "/assets/img/portfolio/mas/08.jpg",
+      "title": "Brass Sensor Temperature Body",
+      "tag": "Sensors",
+      "filterClass": "terminals"
+    },
+    {
+      "id": 9,
+      "image": "/assets/img/portfolio/mas/09.jpg",
+      "title": "Brass Cross Diamond Knurling Inserts",
+      "tag": "Knurling inserts",
+      "filterClass": "inserts"
+    }
+  ]
+}
