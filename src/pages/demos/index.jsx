@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-css-tags */
 /* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unknown-property */
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";

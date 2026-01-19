@@ -16,7 +16,7 @@ const Recognition = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10 col-sm-12">
               <h6 className="wow fadeInDown" data-wow-delay=".3s">Recognition</h6>
-              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Consistent 'A' grade vendor award from MNCs since 20 years</h4>
+              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Consistent &#39;A&#39; grade vendor award from MNCs since 20 years</h4>
             </div>
           </div>
         </div>
