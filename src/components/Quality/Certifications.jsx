@@ -15,34 +15,44 @@ const Certifications = () => {
     const doc = downloads.find((d) => d.title === key);
     return doc?.url || "#";
   };
+
   return (
-    <section className="blog-grid section-padding">
+    <section className="certifications section-padding">
       <div className="container">
-        <div className="section-head text-center">
-          <div className="row justify-content-center">
-            <div className="col-lg-6 col-md-8 col-sm-10">
-              <h6 className="wow fadeInDown" data-wow-delay=".3s">INDUSTRY STANDARDS</h6>
-              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Certifications & Standards</h4>
-              <p className="mt-10">Our manufacturing processes adhere to international quality standards, ensuring consistent excellence in every component.</p>
-            </div>
-          </div>
+        <div className="section-head text-center mb-60">
+          <h6 className="wow fadeInDown">Industry Standards</h6>
+          <h4 className="playfont wow flipInX">
+            Certifications & Standards
+          </h4>
+          <p className="mt-10">
+            Our manufacturing processes adhere to international quality standards,
+            ensuring consistent excellence in every component.
+          </p>
         </div>
+
         <div className="row">
-          {certList.map((c, index) => (
-            <div className="col-lg-4" key={c.key}>
-              <div className="item wow fadeInUp" data-wow-delay={index % 3 === 0 ? ".3s" : index % 3 === 1 ? ".5s" : ".7s"}>
-                <div className="cont">
-                  <div className="info">
-                    <span className="mr-10">{c.title}</span>
-                    <span className="badge">Verified</span>
-                  </div>
-                  <h6 className="mb-10">{c.subtitle}</h6>
-                  <Link href={getUrl(c.key)}>
-                    <a className="more" target="_blank" rel="noopener noreferrer">
-                      <span>Download Certificate</span>
-                    </a>
-                  </Link>
+          {certList.map((c) => (
+            <div className="col-lg-4 col-md-6 mb-40" key={c.key}>
+              <div className="cert-card">
+
+                {/* Header */}
+                <div className="cert-header">
+                  <span className="cert-title">{c.title}</span>
+                  <span className="cert-badge">Verified</span>
                 </div>
+
+                {/* Subtitle */}
+                <p className="cert-subtitle">{c.subtitle}</p>
+
+                {/* CTA */}
+                <Link
+                  href={getUrl(c.key)}
+                  target="_blank"
+                  className="cert-download"
+                >
+                  Download Certificate
+                </Link>
+
               </div>
             </div>
           ))}

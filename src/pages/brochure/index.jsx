@@ -1,20 +1,21 @@
 import React from "react";
-import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import Downloads from "../../components/Downloads";
+import LightLayout from "../../layouts/light";
 
 const Brochure = () => {
   return (
-    <MainLayout>
+    <LightLayout>
       <PageHeader
         title="Brochure"
+        image="/assets/img/brochure.png"
         fullPath={[
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "brochure", url: "/brochure" },
         ]}
       />
       <Downloads />
-    </MainLayout>
+    </LightLayout>
   );
 };
 

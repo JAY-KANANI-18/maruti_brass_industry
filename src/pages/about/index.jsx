@@ -1,16 +1,11 @@
 import React from "react";
-import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
-import AboutUs1 from "../../components/About-Us1";
-import Services1 from "../../components/Services1";
-import SkillsCircle from "../../components/Skills-circle";
-import Testimonials1 from "../../components/Testimonials1";
-import Team1 from "../../components/Team1";
-import VisionMissionValues from "../../components/VisionMissionValues";
-import Industries from "../../components/Industries";
-import Downloads from "../../components/Downloads";
-import StatsBand from "../../components/StatsBand";
 import CTA from "../../components/CTA";
+import LightLayout from "../../layouts/light";
+import AboutIntro from "../../components/AboutUnique/AboutIntro";
+import Capabilities from "../../components/AboutUnique/Capabilities";
+import Milestones from "../../components/AboutUnique/Milestones";
+import AboutCertifications from "../../components/AboutUnique/Certifications";
 
 const About = () => {
   React.useEffect(() => {
@@ -18,26 +13,21 @@ const About = () => {
   }, []);
 
   return (
-    <MainLayout>
+    <LightLayout>
       <PageHeader
         title="About Us"
         fullPath={[
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "about us", url: "/about" },
         ]}
-        image="/assets/img/pg1.jpg"
+        image="/assets/img/about/about-hero2.png"
       />
-      <AboutUs1 />
-      <StatsBand />
-      <VisionMissionValues />
-      <Services1 />
-      <Industries />
-      <SkillsCircle />
-      <Team1 />
-      <Testimonials1 />
-      <Downloads />
-      <CTA />
-    </MainLayout>
+      <AboutIntro />
+      <Capabilities />
+      <Milestones />
+      <AboutCertifications />
+      {/* <CTA /> */}
+    </LightLayout>
   );
 };
 

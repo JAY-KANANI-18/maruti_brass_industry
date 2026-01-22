@@ -2,7 +2,7 @@ import React from "react";
 
 const QualityHero = () => {
   return (
-    <section className="services section-padding">
+    <section className="services section-padding pb-50">
       <div className="container">
         <div className="section-head text-center">
           <div className="row justify-content-center">

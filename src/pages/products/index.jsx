@@ -1,20 +1,21 @@
 import React from "react";
-import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import Portfolio1 from "../../components/Portfolio1";
+import LightLayout from "../../layouts/light";
 
 const Products = () => {
   return (
-    <MainLayout>
+    <LightLayout>
       <PageHeader
         title="Products"
+        image="/assets/img/products/products-hero.png"
         fullPath={[
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "products", url: "/products" },
         ]}
       />
       <Portfolio1 />
-    </MainLayout>
+    </LightLayout>
   );
 };
 

@@ -1,28 +1,59 @@
 import React from "react";
 
+const signals = [
+  {
+    title: "Manufactured in India",
+    desc: "Precision engineering with global export standards",
+  },
+  {
+    title: "Nation-first Mindset",
+    desc: "Aligned with Make in India & Atmanirbhar Bharat",
+  },
+  {
+    title: "Trusted by MNCs",
+    desc: "Decades of consistent quality and reliability",
+  },
+];
+
 const MakeInIndia = () => {
   return (
-    <section className="services section-padding bg-gray">
+    <section className="make-india-unique section-padding">
       <div className="container">
-        <div className="section-head text-center">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-10 col-sm-12">
-              <h6 className="wow fadeInDown" data-wow-delay=".3s">Make in India</h6>
-              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Proudly contributing to India&#39;s growth story</h4>
+        <div className="row align-items-center">
+
+          {/* LEFT : Statement */}
+          <div className="col-lg-6 mb-40">
+            <div className="india-statement">
+              <h6 className="eyebrow">Make in India</h6>
+              <h2 className="headline playfont">
+                Engineering India’s Growth<br />with Precision & Pride
+              </h2>
+              <p className="statement">
+                At Maruti Brass Industry, we don’t just manufacture components —
+                we build confidence, capability, and global competitiveness from
+                Indian soil.
+              </p>
+              <p className="closing">
+                Built in India. Trusted Worldwide.
+              </p>
             </div>
           </div>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-            <div className="item-bx bg-img wow fadeInUp" data-wow-delay=".3s" style={{ backgroundImage: "url(/assets/img/01.jpg)" }}>
-              <p>
-                Maruti Brass Industry is committed to delivering high-quality engineering products and works across all aspects to fulfill customer satisfaction and manufacturing excellence, aligned with the nation&#39;s &#39;Make in India&#39; vision.
-              </p>
-              <p className="mt-10">
-                Together, let&#39;s take our nation to new heights in growth, prosperity, and excellence. Jai Hind.
-              </p>
+
+          {/* RIGHT : Signals */}
+          <div className="col-lg-6">
+            <div className="india-signals">
+              {signals.map((s, i) => (
+                <div className="signal-item" key={i}>
+                  <span className="signal-index">0{i + 1}</span>
+                  <div>
+                    <h6>{s.title}</h6>
+                    <p>{s.desc}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
+
         </div>
       </div>
     </section>

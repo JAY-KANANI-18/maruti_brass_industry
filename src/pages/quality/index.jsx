@@ -13,17 +13,18 @@ import ZeroDefect from "../../components/Quality/ZeroDefect";
 import Recognition from "../../components/Quality/Recognition";
 import MakeInIndia from "../../components/Quality/MakeInIndia";
 import Video from "../../components/Video";
+import LightLayout from "../../layouts/light";
 
 const Quality = () => {
   return (
-    <MainLayout>
+    <LightLayout>
       <PageHeader
         title="Quality Assurance"
         fullPath={[
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "quality", url: "/quality" },
         ]}
-        image="/assets/img/pg2.jpg"
+        image="/assets/img/quality/quality-hero.png"
       />
       <QualityHero />
       <PillarsCols />
@@ -37,7 +38,7 @@ const Quality = () => {
       <MakeInIndia />
       <SkillsCircle />
       <Downloads />
-    </MainLayout>
+    </LightLayout>
   );
 };
 

@@ -73,3 +73,11 @@
 	.flaticon-living-room-1:before {
 		content: "\f111";
 	}
+	.flaticon-checked:before {
+		content: "\f10a"; /* check / verified icon */
+	  }
+	  
+	  .flaticon-safety:before {
+		content: "\f12c"; /* shield / safety icon */
+	  }
+	  

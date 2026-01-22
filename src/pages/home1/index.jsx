@@ -27,9 +27,9 @@ const Home1 = () => {
       <CTA />
       <VisionMissionValues />
       <Portfolio1 />
-      <Industries />
       <SkillsCircle />
       <Testimonials />
+      <Industries />
       <Team1 />
       {/* <Blogs1 /> */}
       <Contact />

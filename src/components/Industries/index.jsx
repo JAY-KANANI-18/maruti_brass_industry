@@ -3,27 +3,42 @@ import industries from "../../data/industries.json";
 
 const Industries = () => {
   return (
-    <section className="services section-padding bg-gray">
+    <section className="industries-panels section-padding">
       <div className="container">
-        <div className="section-head text-center">
-          <div className="row justify-content-center">
-            <div className="col-lg-6 col-md-8 col-sm-10">
-              <h6 className="wow fadeInDown" data-wow-delay=".3s">Global Excellence</h6>
-              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Industries We Serve</h4>
-            </div>
-          </div>
+
+        {/* Header */}
+        <div className="section-head text-center mb-80 text-white">
+          <h6 className="wow fadeInDown">Global Excellence</h6>
+          <h4 className="playfont wow flipInX">Industries We Serve</h4>
         </div>
 
+        {/* Panels */}
         <div className="row">
-          {industries.map((it) => (
-            <div className="col-lg-4 col-md-6 item-bx" key={it.id}>
-              <div className="item-bx bg-img wow fadeInUp" data-wow-delay=".3s" style={{ backgroundImage: "url(" + it.image + ")" }}>
-                <h6 className="mb-10">{it.name}</h6>
-                <p>{it.description}</p>
+          {industries.map((it, i) => (
+            <div className="col-lg-4 col-md-6 mb-40" key={it.id}>
+              <div
+                className="industry-panel wow fadeInUp"
+                data-wow-delay={`${0.3 + i * 0.1}s`}
+              >
+                {/* Image panel */}
+                <div
+                  className="industry-image"
+                  style={{ backgroundImage: `url(${it.image})` }}
+                />
+
+                {/* Content */}
+                <div className="industry-content">
+                  <h5 className="playfont">{it.name}</h5>
+                  <p>{it.description}</p>
+                </div>
+
+                {/* Accent line */}
+                <span className="industry-accent" />
               </div>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

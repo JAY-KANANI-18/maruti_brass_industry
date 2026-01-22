@@ -1,10 +1,10 @@
 import React from "react";
 
 const steps = [
-  { id: "01", title: "Material Inspection", desc: "Every batch of raw material undergoes rigorous testing and validation." , img: "/assets/img/process/01.jpg"},
-  { id: "02", title: "In-Process Control", desc: "Continuous monitoring during machining operations prevents deviations.", img: "/assets/img/process/02.jpg" },
-  { id: "03", title: "Final Inspection", desc: "Comprehensive dimensional and visual verification before dispatch.", img: "/assets/img/process/03.jpg" },
-  { id: "04", title: "Documentation & Traceability", desc: "Complete documentation and lot traceability for every batch.", img: "/assets/img/process/04.jpg" },
+  { id: "01", title: "Material Inspection", desc: "Every batch of raw material undergoes rigorous testing and validation." , img: "/assets/img/quality/material-inspection.png"},
+  { id: "02", title: "In-Process Control", desc: "Continuous monitoring during machining operations prevents deviations.", img: "/assets/img/quality/in-process-control.png" },
+  { id: "03", title: "Final Inspection", desc: "Comprehensive dimensional and visual verification before dispatch.", img: "/assets/img/quality/final-inspection.png" },
+  { id: "04", title: "Documentation & Traceability", desc: "Complete documentation and lot traceability for every batch.", img: "/assets/img/quality/documentation-traceability.png" },
 ];
 
 const Steps = () => {
