@@ -3685,12 +3685,14 @@ body {
 /* ====================== [ Start Footer ] ====================== */
 footer {
   background: #000;
-  width: calc(100% - 50px);
-  margin-left: 25px;
+  width: 100%;
   margin-bottom: 25px;
   color: #fff;
   padding: 100px 0;
+  padding-bottom: 50px;
 }
+
+
 footer .item .title h5 {
   margin-bottom: 30px;
 }
@@ -3730,7 +3732,7 @@ footer .item li .subscribe input {
   width: 100%;
   padding: 15px;
   border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(219, 101, 101, 0.05);
   background: transparent;
   color: #fff;
   font-size: 13px;
@@ -3759,9 +3761,17 @@ footer .item .social a {
   line-height: 60px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgb(112, 112, 112);
   font-size: 13px;
   margin-right: 10px;
+}
+footer .item .social a:hover {
+ color: #c58f33;
+ background: #fff;
+ border-color: #c58f33;
+ transition: all 0.3s ease;
+ cursor: pointer;
+ 
 }
 footer .item .copy-right {
   margin-top: 30px;
