@@ -26,7 +26,7 @@ const Home1 = () => {
       <Services1 />
       <CTA />
       <VisionMissionValues />
-      <Portfolio1 />
+      {/* <Portfolio1 /> */}
       <SkillsCircle />
       <Testimonials />
       <Industries />
