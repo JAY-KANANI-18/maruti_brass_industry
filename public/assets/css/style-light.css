@@ -4861,9 +4861,164 @@ footer .item .copy-right p a {
   line-height: 1.7;
   color: #666;
 }
+
+/* ===============================
+   Zero Defect – Responsive Fix
+================================ */
+
+/* Tablets */
+@media (max-width: 991px) {
+  .zero-defect-card.full-width {
+    padding: 50px 40px;
+  }
+
+  .zero-defect-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .zero-defect-anchor {
+    padding-left: 0;
+    padding-top: 40px;
+    border-left: none;
+    border-top: 1px solid #eee;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .zero-defect-card.full-width {
+    padding: 40px 24px;
+  }
+
+  .zero-defect-grid {
+    gap: 40px;
+  }
+
+  .zero-defect-list li {
+    padding-left: 28px;
+    font-size: 14.5px;
+  }
+
+  .zero-defect-anchor {
+    text-align: center;
+    padding-top: 32px;
+  }
+
+  .zero-defect-anchor h3 {
+    font-size: 32px;
+  }
+
+  .zero-defect-anchor p {
+    font-size: 14px;
+  }
+}
+
 .recognition-unique {
   background: #fff;
 }
+
+/* ===============================
+   Tools Split – Metrology Section
+================================ */
+
+.tools-split {
+  background: #fff;
+}
+
+/* LEFT */
+.tools-content h2 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.tools-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 480px;
+}
+
+/* RIGHT LIST */
+.tools-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tools-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14.5px;
+  line-height: 1.6;
+}
+
+.tools-list li:last-child {
+  border-bottom: none;
+}
+
+/* Number badge */
+.tools-list li span {
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #c39a6b;
+  color: #c39a6b;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Hover refinement (desktop only) */
+@media (hover: hover) {
+  .tools-list li:hover {
+    background: #fafafa;
+  }
+}
+
+/* ===============================
+   Responsive
+================================ */
+
+/* Tablet */
+@media (max-width: 991px) {
+  .tools-content h2 {
+    font-size: 36px;
+  }
+
+  .tools-content p {
+    max-width: 100%;
+  }
+
+  .tools-list {
+    margin-top: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .tools-content h2 {
+    font-size: 30px;
+  }
+
+  .tools-list li {
+    gap: 14px;
+    font-size: 14px;
+  }
+
+  .tools-list li span {
+    min-width: 30px;
+    height: 30px;
+    font-size: 11px;
+  }
+}
+
 
 /* Subtext */
 .recognition-unique .subtext {
@@ -5244,4 +5399,17 @@ footer .item .copy-right p a {
 
   .nav-scroll .navbar-collapse .social-icon a,
   .light .navbar-collapse .social-icon a { border-color: rgba(0,0,0,0.2) !important; color: #222 !important; }
+}
+/* ====================== [ Mobile Navbar open on transparent header ] ====================== */
+@media (max-width: 991.98px) {
+  /* When header is transparent (not scrolled) but menu is open, keep drawer dark */
+  .navbar.menu-open:not(.nav-scroll) .navbar-collapse { background: #111 !important; }
+  .navbar.menu-open:not(.nav-scroll) .navbar-collapse .nav-link { color: #fff !important; }
+  .navbar.menu-open:not(.nav-scroll) .navbar-collapse .active { color: #c58f33 !important; }
+  .navbar.menu-open:not(.nav-scroll) .navbar-collapse .social-icon a { color: #fff !important; border-color: rgba(255,255,255,0.3) !important; }
+}
+@media (max-width: 991.98px) {
+  /* Also darken the top bar itself when menu is open on transparent header */
+  .navbar.menu-open:not(.nav-scroll) { background: #111 !important; border-bottom: 1px solid rgba(255,255,255,0.1) !important; }
+  .navbar.menu-open:not(.nav-scroll) .icon-bar { color: #fff !important; }
 }
