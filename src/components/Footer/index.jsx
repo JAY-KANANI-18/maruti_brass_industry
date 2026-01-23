@@ -17,7 +17,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Office Address</h6>
-                    <p>PLOT NO. 3092  GIDC Phase 2 , </p>
+                    <p>PLOT NO. 3092  GIDC Phase 2, </p>
                     <p>Jamngar, Gujarat - 361006</p>
                   </div>
                 </li>
@@ -45,32 +45,32 @@ const Footer = ({ classText }) => {
               </div>
               <ul>
                 <li>
-                  <Link href="#">
+                  <Link href="/">
                     <a>Home</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/about">
                     <a>About Us</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Services</a>
+                  <Link href="/products">
+                    <a>Products</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Portfolio</a>
+                  <Link href="/quality">
+                    <a>Quality</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
-                    <a>Blog</a>
+                  <Link href="/brochure">
+                    <a>Brochure</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#">
+                  <Link href="/contact">
                     <a>Contact Us</a>
                   </Link>
                 </li>
@@ -106,14 +106,7 @@ const Footer = ({ classText }) => {
                   </a>
                 </Link>
               </div>
-              <div>
-                <li>
-                  <div className="subscribe mt-4">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
-                </li>
-              </div>
+
               <div className="copy-right">
                 <p>© 2026 Maruti Brass Industry. </p>
                 <p>All rights reserved.</p>

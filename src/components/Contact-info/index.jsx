@@ -29,7 +29,7 @@ const ContactInfo = () => {
               <div className="cont">
                 <h6 className="custom-font">Address</h6>
                 <p>
-                  PLOT NO. 3092  GIDC Phase 2 Jamngar, Gujarat - 361006
+                  PLOT NO. 3092  GIDC Phase 2, Jamngar, Gujarat - 361006
 
                 </p>
               </div>

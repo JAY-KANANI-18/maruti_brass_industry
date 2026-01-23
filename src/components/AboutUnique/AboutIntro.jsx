@@ -35,7 +35,6 @@ const AboutIntro = () => {
                       <div className="item">
                         <h3>
                           <span className="nbr playfont">{item.number}</span>
-                          <i>+</i>
                         </h3>
                         <h6>{item.name}</h6>
                       </div>
@@ -67,7 +66,7 @@ const AboutIntro = () => {
 
                   {/* Experience anchor */}
                   <div className="years playfont">
-                    <h2>{yearsExp}+</h2>
+                    <h2>{yearsExp}</h2>
                     <h5>Years of Manufacturing Excellence</h5>
                   </div>
                 </div>
