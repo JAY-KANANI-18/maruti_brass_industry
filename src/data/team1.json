@@ -6,10 +6,10 @@
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Harshil Chhapia",
+    "username": "Founder 2",
     "usertitle": "Marketing Executive",
-    "phone": "+91 8347549511",
-    "email": "chhapiah@gmail.com"
+    "phone": "+91 811111111",
+    "email": "founder2@gmail.com"
   },
   {
     "id": 2,
@@ -18,10 +18,10 @@
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Sandip Chhapia",
+    "username": "Founder 1",
     "usertitle": "CEO & Founder",
-    "phone": "+91 9824206708",
-    "email": "sandipchhapia2001@gmail.com"
+    "phone": "+91 911111111",
+    "email": "founder1@gmail.com"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Team Member",
+    "username": "Founder 3",
     "usertitle": "Engineering"
   },
   {
@@ -40,7 +40,7 @@
     "twitter": "#",
     "behance": "#",
     "linkedin": "#",
-    "username": "Team Member",
+    "username": "Founder 4",
     "usertitle": "Quality Assurance"
   }
 ]

@@ -21,54 +21,54 @@
     "id": 4,
     "name": "Renewable Energy",
     "description": "Solar and wind energy components for sustainable power generation.",
-    "image": "/assets/img/industries/4.png"
+    "image": "/assets/img/home/renewable.png"
   },
   {
     "id": 5,
     "name": "Sanitary",
     "description": "Hygienic brass fittings and components for plumbing and sanitary systems.",
-    "image": "/assets/img/industries/5.png"
+    "image": "/assets/img/home/sanity.png"
   },
   {
     "id": 6,
     "name": "Plastic & Rubber",
     "description": "Specialized components for plastic injection molding and rubber processing.",
-    "image": "/assets/img/industries/6.png"
+    "image": "/assets/img/home/plastic.png"
   },
   {
     "id": 7,
     "name": "Oil & Gas",
     "description": "Corrosion-resistant components for petroleum and natural gas applications.",
-    "image": "/assets/img/industries/7.png"
+    "image": "/assets/img/home/oil.png"
   },
   {
     "id": 8,
     "name": "Electricals & Power",
     "description": "High-conductivity electrical components and power distribution parts.",
-    "image": "/assets/img/industries/8.png"
+    "image": "/assets/img/home/electrical.png"
   },
   {
     "id": 9,
     "name": "Pneumatic",
     "description": "Precision pneumatic fittings and air handling system components.",
-    "image": "/assets/img/industries/9.png"
+    "image": "/assets/img/home/pneumatic.png"
   },
   {
     "id": 10,
     "name": "Agriculture",
     "description": "Durable agricultural equipment components and irrigation system parts.",
-    "image": "/assets/img/industries/10.png"
+    "image": "/assets/img/home/agriculture.png"
   },
   {
     "id": 11,
     "name": "EV (Electric Vehicles)",
     "description": "Advanced components for electric vehicle charging and power systems.",
-    "image": "/assets/img/industries/11.png"
+    "image": "/assets/img/home/ev.png"
   },
   {
     "id": 12,
     "name": "Industrial Manufacturing",
     "description": "Custom industrial components for various manufacturing applications.",
-    "image": "/assets/img/industries/12.png"
+    "image": "/assets/img/home/industrial.png"
   }
 ]

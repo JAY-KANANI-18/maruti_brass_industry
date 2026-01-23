@@ -5231,3 +5231,17 @@ footer .item .copy-right p a {
     min-height: 300px;
   }
 }
+/* ====================== [ Mobile Navbar overrides ] ====================== */
+@media (max-width: 991.98px) {
+  .nav-scroll .navbar-collapse,
+  .light .navbar-collapse { background: #fff !important; }
+
+  .nav-scroll .navbar-collapse .nav-link,
+  .light .navbar-collapse .nav-link { color: #222 !important; }
+
+  .nav-scroll .navbar-collapse .active,
+  .light .navbar-collapse .active { color: #c58f33 !important; }
+
+  .nav-scroll .navbar-collapse .social-icon a,
+  .light .navbar-collapse .social-icon a { border-color: rgba(0,0,0,0.2) !important; color: #222 !important; }
+}

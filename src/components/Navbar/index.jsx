@@ -28,9 +28,15 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   };
 
   const handleMobileDropdown = (e) => {
-    document
-      .getElementById("navbarSupportedContent")
-      .classList.toggle("show-with-trans");
+    const el = document.getElementById("navbarSupportedContent");
+    if (!el) return;
+    el.classList.toggle("show-with-trans");
+    const isOpen = el.classList.contains("show-with-trans");
+    const nav = navbarRef && navbarRef.current;
+    if (nav) {
+      if (isOpen) nav.classList.add("menu-open");
+      else nav.classList.remove("menu-open");
+    }
   };
 
   return (
