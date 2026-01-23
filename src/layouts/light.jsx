@@ -10,23 +10,39 @@ const LightLayout = ({ children, footerClass }) => {
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
-    var navbar = navbarRef.current,
-      logo = logoRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
+    const navbar = navbarRef.current;
+    const logo = logoRef.current;
+
+    const isMobile = () => window.innerWidth < 990;
+
+    const updateLogo = () => {
+      const scrolled = window.pageYOffset > 300;
+
+      if (scrolled) {
         navbar.classList.add("nav-scroll");
-        logo.setAttribute("src", appData.darkLogo);
+        logo.src = isMobile()
+          ? appData.mobileDarkLogo
+          : appData.darkLogo;
       } else {
         navbar.classList.remove("nav-scroll");
-        logo.setAttribute("src", appData.lightLogo);
+        logo.src = isMobile()
+          ? appData.mobileLightLogo
+          : appData.lightLogo;
       }
-    });
-  }, [navbarRef]);
+    };
+
+    // Initial check
+    updateLogo();
+
+    window.addEventListener("scroll", updateLogo);
+    window.addEventListener("resize", updateLogo);
+
+    return () => {
+      window.removeEventListener("scroll", updateLogo);
+      window.removeEventListener("resize", updateLogo);
+    };
+  }, []);
+
   return (
     <>
       <Head>

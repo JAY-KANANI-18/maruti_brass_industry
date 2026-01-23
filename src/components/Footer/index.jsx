@@ -17,23 +17,22 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Office Address</h6>
-                    <p>Jamnagar, Gujarat, India</p>
+                    <p>PLOT NO. 3092  GIDC Phase 2 , </p>
+                    <p>Jamngar, Gujarat - 361006</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>info@marutibrass.com</p>
-                    <p>sales@marutibrass.com</p>
+                    <p>marutibrass1177@gmail.com</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+91 3333333333</p>
-                    <p>+91 2222222222</p>
+                    <p>+91 9265002274</p>
                   </div>
                 </li>
               </ul>
@@ -75,15 +74,15 @@ const Footer = ({ classText }) => {
                     <a>Contact Us</a>
                   </Link>
                 </li>
-                
+
               </ul>
             </div>
           </div>
-       
+
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/assets/img/logo-light.png" alt="" />
+                <img src="/assets/img/Logo/SVG/Dark BG Logo.svg" width={200} height={200} alt="" />
               </div>
               <div className="social">
                 <Link href="#">
@@ -108,7 +107,7 @@ const Footer = ({ classText }) => {
                 </Link>
               </div>
               <div>
-              <li>
+                <li>
                   <div className="subscribe mt-4">
                     <input type="text" placeholder="Type Your Email" />
                     <span className="subs pe-7s-paper-plane"></span>

@@ -6,7 +6,7 @@ import skillsCircleData from '../../data/skills-circle.json'
 const SkillsCircle = () => {
   const cpStyle = {
     path: {
-      stroke: "#b19777",
+      stroke: "#c58f33",
     },
     trail: {
       stroke: "#0f1013",
