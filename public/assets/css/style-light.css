@@ -5423,3 +5423,19 @@ footer .item .copy-right p a {
   .navbar.menu-open:not(.nav-scroll) { background: #111 !important; border-bottom: 1px solid rgba(255,255,255,0.1) !important; }
   .navbar.menu-open:not(.nav-scroll) .icon-bar { color: #fff !important; }
 }
+
+
+.powered-by {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.powered-by a {
+  color: #fff;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.powered-by a:hover {
+  opacity: 1;
+}
