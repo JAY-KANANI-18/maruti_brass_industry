@@ -31,7 +31,7 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Site Links</h5>
+                <h5>Quick Links</h5>
               </div>
               <ul>
                 <li><Link href="/"><a>Home</a></Link></li>
