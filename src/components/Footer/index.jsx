@@ -52,7 +52,8 @@ const Footer = ({ classText }) => {
               </div>
               <ul>
                 <li >
-                  <a style={{ display: "flex" }} href="https://maps.app.goo.gl/H6hzxTDAP2htZ3Ty7" target="_blank">
+                  <a style={{ display: "flex" }} href="https://maps.app.goo.gl/H6hzxTDAP2htZ3Ty7" rel="noopener noreferrer"
+                    target="_blank">
                     <span className="icon pe-7s-map-marker"></span>
                     <div className="cont">
                       <h6>Office</h6>
