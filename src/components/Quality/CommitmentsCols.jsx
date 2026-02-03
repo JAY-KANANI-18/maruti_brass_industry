@@ -5,25 +5,25 @@ const items = [
     id: 1,
     icon: "pe-7s-check",
     title: "100% Inspection",
-    desc: "Manual and machine checks on every critical component.",
+    desc: "Every critical component is checked by machine and by hand.",
   },
   {
     id: 2,
     icon: "pe-7s-shield",
     title: "Zero Defect Policy",
-    desc: "Flawless outputs driven by engineering discipline.",
+    desc: "Flawless output targeted through engineering discipline.",
   },
   {
     id: 3,
     icon: "flaticon-plan",
     title: "SPC Monitoring",
-    desc: "Statistical process control for continuous stability.",
+    desc: "Statistical process control for ongoing stability.",
   },
   {
     id: 4,
     icon: "flaticon-home",
     title: "In-house QC Systems",
-    desc: "Integrated checks across each stage of production.",
+    desc: "Integrated checks at each stage of production.",
   },
 ];
 const CommitmentsCols = () => {

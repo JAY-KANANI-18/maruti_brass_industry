@@ -31,7 +31,7 @@ const Quality = () => {
       <Steps />
       <ToolsSplit />
       <CommitmentsCols />
-      <Video />
+      {/* <Video /> */}
       <Certifications />
       <ZeroDefect />
       <Recognition />

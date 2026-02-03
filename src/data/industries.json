@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "Automobile",
-    "description": "Precision automotive components for engine, transmission, and electrical systems.",
+    "description": "Precision parts for engines, drivetrains, and vehicle electrical systems.",
     "image": "/assets/img/home/automobile.png"
   },
   {
     "id": 2,
     "name": "Shipping",
-    "description": "Marine-grade brass components for maritime and offshore applications.",
+    "description": "Marine‑grade brass parts for shipboard and offshore environments.",
     "image": "/assets/img/home/shipping.png"
   },
   {
     "id": 3,
     "name": "Aviation & Aerospace",
-    "description": "High-precision aerospace components meeting strict aviation standards.",
+    "description": "Tight‑tolerance aerospace components built to demanding aviation standards.",
     "image": "/assets/img/home/aerospace.png"
   },
   {
     "id": 4,
     "name": "Renewable Energy",
-    "description": "Solar and wind energy components for sustainable power generation.",
+    "description": "Components for solar and wind systems supporting sustainable power.",
     "image": "/assets/img/home/renewable.png"
   },
   {
     "id": 5,
     "name": "Sanitary",
-    "description": "Hygienic brass fittings and components for plumbing and sanitary systems.",
+    "description": "Hygienic fittings and components for plumbing and sanitary applications.",
     "image": "/assets/img/home/sanity.png"
   },
   {
     "id": 6,
     "name": "Plastic & Rubber",
-    "description": "Specialized components for plastic injection molding and rubber processing.",
+    "description": "Specialized parts for plastic injection and rubber processing.",
     "image": "/assets/img/home/plastic.png"
   },
   {
     "id": 7,
     "name": "Oil & Gas",
-    "description": "Corrosion-resistant components for petroleum and natural gas applications.",
+    "description": "Corrosion‑resistant parts for oil and gas applications.",
     "image": "/assets/img/home/oil.png"
   },
   {
     "id": 8,
     "name": "Electricals & Power",
-    "description": "High-conductivity electrical components and power distribution parts.",
+    "description": "High‑conductivity electrical and power distribution components.",
     "image": "/assets/img/home/electrical.png"
   },
   {
     "id": 9,
     "name": "Pneumatic",
-    "description": "Precision pneumatic fittings and air handling system components.",
+    "description": "Precision pneumatic fittings and air‑handling components.",
     "image": "/assets/img/home/pneumatic.png"
   },
   {
     "id": 10,
     "name": "Agriculture",
-    "description": "Durable agricultural equipment components and irrigation system parts.",
+    "description": "Durable components for agricultural equipment and irrigation.",
     "image": "/assets/img/home/agriculture.png"
   },
   {
     "id": 11,
     "name": "EV (Electric Vehicles)",
-    "description": "Advanced components for electric vehicle charging and power systems.",
+    "description": "Components for EV charging, power electronics, and connectivity.",
     "image": "/assets/img/home/ev.png"
   },
   {
     "id": 12,
     "name": "Industrial Manufacturing",
-    "description": "Custom industrial components for various manufacturing applications.",
+    "description": "Custom components for a wide range of industrial applications.",
     "image": "/assets/img/home/industrial.png"
   }
 ]

@@ -4,45 +4,45 @@ const steps = [
   {
     id: 1,
     title: "Material Inspection",
-    desc: "Every batch of raw material undergoes rigorous testing...",
+    desc: "Each incoming batch is verified against specifications.",
     bullets: [
-      "Rigorous material inspection standards",
-      "Comprehensive documentation",
-      "Advanced quality assurance techniques",
-      "ISO 9001:2015 Verified",
+      "Material inspection to defined standards",
+      "Complete documentation maintained",
+      "Advanced QA techniques",
+      "ISO 9001:2015 verified",
     ],
   },
   {
     id: 2,
     title: "In-Process Control",
-    desc: "Continuous monitoring during machining operations...",
+    desc: "In‑process checks monitor machining continuously.",
     bullets: [
-      "Rigorous in-process control standards",
-      "Comprehensive documentation",
-      "Advanced quality assurance techniques",
-      "ISO 9001:2015 Verified",
+      "In‑process control to set limits",
+      "Operator and QC sign‑offs",
+      "SPC sampling where applicable",
+      "ISO 9001:2015 verified",
     ],
   },
   {
     id: 3,
     title: "Final Inspection",
-    desc: "Comprehensive quality verification including dimensional...",
+    desc: "Final dimensional and visual verification before dispatch.",
     bullets: [
-      "Rigorous final inspection standards",
-      "Comprehensive documentation",
-      "Advanced quality assurance techniques",
-      "ISO 9001:2015 Verified",
+      "100% checks on critical dimensions",
+      "Surface and thread validation",
+      "Lot approval records",
+      "ISO 9001:2015 verified",
     ],
   },
   {
     id: 4,
     title: "Documentation & Traceability",
-    desc: "Complete documentation and lot traceability for every batch...",
+    desc: "Traceability and records retained for every lot.",
     bullets: [
-      "Rigorous documentation & traceability standards",
-      "Comprehensive documentation",
-      "Advanced quality assurance techniques",
-      "ISO 9001:2015 Verified",
+      "Lot‑wise traceability",
+      "PDIR and spectro reports as required",
+      "Document retention policy",
+      "ISO 9001:2015 verified",
     ],
   },
 ];
@@ -55,8 +55,8 @@ const QCProcess = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10 col-sm-12">
               <h6 className="wow fadeInDown" data-wow-delay=".3s">QUALITY ASSURANCE</h6>
-              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Quality Control Process</h4>
-              <p className="mt-10">Our comprehensive quality control process ensures that every component meets our rigorous standards before reaching our customers.</p>
+              <h4 className="playfont wow flipInX" data-wow-delay=".5s">Our Quality Control Process</h4>
+              <p className="mt-10">End‑to‑end quality controls ensure each component meets stringent standards before shipment.</p>
             </div>
           </div>
         </div>

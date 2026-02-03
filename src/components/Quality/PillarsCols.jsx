@@ -5,25 +5,25 @@ const items = [
     id: 1,
     icon: "flaticon-interior-design",
     title: "Automated Inspection",
-    desc: "Laser and vision systems ensure flawless geometry.",
+    desc: "Vision and laser systems verify geometry with precision.",
   },
   {
     id: 2,
     icon: "flaticon-plan",
     title: "Process Control",
-    desc: "Real-time data monitoring prevents deviations.",
+    desc: "Live data monitoring helps prevent deviations.",
   },
   {
     id: 3,
     icon: "flaticon-renovation",
     title: "Material Integrity",
-    desc: "Certified raw materials and full traceability.",
+    desc: "Certified materials with full traceability.",
   },
   {
     id: 4,
     icon: "flaticon-home",
     title: "Quality Commitments",
-    desc: "Precision and reliability in every component.",
+    desc: "Precision and reliability in each component.",
   },
 ];
 
@@ -32,7 +32,7 @@ const PillarsCols = () => {
     <section className="quality-pillars ">
       <div className="container">
         <div className="section-head text-center mb-70">
-          <h3 className="playfont">Quality Pillars</h3>
+          <h3 className="playfont">Pillars of Quality</h3>
           <span className="sub-head">Assurance</span>
         </div>
 

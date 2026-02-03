@@ -17,10 +17,10 @@ const Recognition = () => {
         <div className="section-head text-center mb-60">
           <h6 className="wow fadeInDown">Recognition</h6>
           <h4 className="playfont wow flipInX">
-            Consistent ‘A’ Grade Vendor Award<br />from Global MNCs
+            Consistently Rated ‘A’ by Global MNCs
           </h4>
           <p className="subtext">
-            Sustained excellence, validated year after year.
+            Sustained performance, recognized year after year.
           </p>
         </div>
 

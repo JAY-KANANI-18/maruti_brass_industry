@@ -16,11 +16,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="React Nextjs Template Maruti onepage themeforest"
+            content="Maruti Brass Industry, precision brass components, CNC machining, ISO 9001, IATF 16949, Jamnagar, OEM supplier, brass fittings"
           />
           <meta
             name="description"
-            content="Maruti - Onepage Multi-Purpose React nextjs Template"
+            content="Maruti Brass Industry manufactures precision brass components in Jamnagar, India. ISO 9001 and IATF 16949 certified. Supplying automotive, electrical, sanitary and industrial sectors."
           />
           <meta name="author" content="" />
 

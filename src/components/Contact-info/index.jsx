@@ -9,7 +9,7 @@ const ContactInfo = () => {
             <div className="item">
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
-                <h6 className="custom-font">Call Us</h6>
+                <h6 className="custom-font">Phone</h6>
                 <p>+91 9265002274</p>
               </div>
             </div>
@@ -18,7 +18,7 @@ const ContactInfo = () => {
             <div className="item">
               <span className="icon pe-7s-mail-open"></span>
               <div className="cont">
-                <h6 className="custom-font">Email Us</h6>
+                <h6 className="custom-font">Email</h6>
                 <p>marutibrass1177@gmail.com</p>
               </div>
             </div>
@@ -29,8 +29,7 @@ const ContactInfo = () => {
               <div className="cont">
                 <h6 className="custom-font">Address</h6>
                 <p>
-                  PLOT NO. 3092  GIDC Phase 2, Jamngar, Gujarat - 361006
-
+                  PLOT NO. 3092 GIDC Phase 2, Jamnagar, Gujarat - 361006
                 </p>
               </div>
             </div>

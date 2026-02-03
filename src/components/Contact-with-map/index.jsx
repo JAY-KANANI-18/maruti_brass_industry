@@ -8,7 +8,11 @@ const ContactWithMap = () => {
         <div className="col-lg-6 map-box">
           <iframe src={appData.mapIframe}></iframe>
         </div>
-        <div className="col-lg-6 form">
+        <div className="col-lg-6 form text-black">
+          <div className="section-head">
+            <h6>Contact Us</h6>
+            <h4 className="playfont">Get In Touch</h4>
+          </div>
           <form id="contact-form" method="post">
             <div className="messages"></div>
 

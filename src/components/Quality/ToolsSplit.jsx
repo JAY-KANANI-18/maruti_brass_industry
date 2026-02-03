@@ -10,15 +10,15 @@ const ToolsSplit = () => {
           <div className="col-lg-5">
             <div className="tools-content wow fadeInUp" data-wow-delay=".3s">
               <h2 className="mb-20 playfont">
-                Precision Measurement & Metrology
+                Precision Measurement and Metrology
               </h2>
               <p>
-                State-of-the-art measurement tools and inspection systems ensure
-                every dimension is verified to specification before it leaves our floor.
+                Modern measurement equipment and inspection systems verify every
+                dimension to specification before dispatch.
               </p>
               <p>
-                From profile projection to microscopic checks, we combine manual expertise
-                and automated systems for zero-defect outcomes.
+                From profile projectors to microscopic checks, we blend hands‑on
+                expertise and automation to aim for zero defects.
               </p>
             </div>
           </div>

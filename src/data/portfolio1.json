@@ -8,65 +8,90 @@
   "portfolio": [
     {
       "id": 1,
-      "image": "/assets/img/portfolio/mas/01.jpg",
+      "image": "/assets/img/products/brass-hex.jpeg",
       "title": "Brass Hex Parts",
       "tag": "Hex components",
+      "description": "Precision-machined brass hex components designed for secure fastening and reliable performance in industrial and engineering applications.",
       "filterClass": "fittings"
     },
     {
       "id": 2,
-      "image": "/assets/img/portfolio/mas/02.jpg",
+      "image": "/assets/img/products/special-hex.jpg",
       "title": "Brass Special Hex Inserts",
       "tag": "Inserts",
+      "description": "Custom brass hex inserts manufactured with tight tolerances for superior grip, durability, and long service life in plastic and metal assemblies.",
       "filterClass": "inserts"
     },
     {
       "id": 3,
-      "image": "/assets/img/portfolio/mas/03.jpg",
+      "image": "/assets/img/products/electrical.jpg",
       "title": "Brass Electrical Terminal Parts",
       "tag": "Electrical terminals",
+      "description": "High-conductivity brass electrical terminal components engineered for safe, efficient, and long-lasting electrical connections.",
       "filterClass": "terminals"
     },
     {
       "id": 4,
-      "image": "/assets/img/portfolio/mas/04.jpg",
+      "image": "/assets/img/products/nickle-plate.jpg",
       "title": "Brass Nickel Plated Terminal",
       "tag": "Nickel plated",
+      "description": "Nickel-plated brass terminals offering excellent corrosion resistance, enhanced conductivity, and extended durability in demanding environments.",
       "filterClass": "terminals"
     },
     {
       "id": 5,
-      "image": "/assets/img/portfolio/mas/05.jpg",
+      "image": "/assets/img/products/forging.png",
       "title": "Brass Forging Components",
       "tag": "Forging",
+      "description": "Robust brass forging components produced for high-strength applications where mechanical reliability and structural integrity are critical.",
       "filterClass": "forging"
     },
     {
       "id": 6,
-      "image": "/assets/img/portfolio/mas/06.jpg",
+      "image": "/assets/img/products/hex-critical.jpg",
       "title": "Brass Hex Critical 1/8\" NPT Thread",
       "tag": "Threaded parts",
+      "description": "Precision brass hex components with accurate 1/8\" NPT threading, ensuring leak-proof sealing and dependable performance in fluid systems.",
       "filterClass": "fittings"
     },
     {
       "id": 7,
-      "image": "/assets/img/portfolio/mas/07.jpg",
+      "image": "/assets/img/products/rivets.jpeg",
       "title": "Brass Rivets",
       "tag": "Rivets",
+      "description": "High-quality brass rivets designed for permanent fastening applications, offering strength, corrosion resistance, and clean finishing.",
       "filterClass": "fittings"
     },
     {
       "id": 8,
-      "image": "/assets/img/portfolio/mas/08.jpg",
+      "image": "/assets/img/products/sensor.jpg",
       "title": "Brass Sensor Temperature Body",
       "tag": "Sensors",
+      "description": "Precision-engineered brass sensor bodies used in temperature and pressure sensing applications, ensuring accurate fit and thermal stability.",
       "filterClass": "terminals"
     },
     {
       "id": 9,
-      "image": "/assets/img/portfolio/mas/09.jpg",
+      "image": "/assets/img/products/cross-diamond.jpg",
       "title": "Brass Cross Diamond Knurling Inserts",
       "tag": "Knurling inserts",
+      "description": "Brass inserts with cross diamond knurling for superior pull-out resistance and firm anchoring in molded and machined components.",
+      "filterClass": "inserts"
+    },
+    {
+      "id": 10,
+      "image": "/assets/img/products/knurling.png",
+      "title": "Brass Knurling Inserts",
+      "tag": "Knurling inserts",
+      "description": "Durable brass knurled inserts manufactured for enhanced grip, dimensional accuracy, and reliable fastening in engineering assemblies.",
+      "filterClass": "inserts"
+    },
+    {
+      "id": 11,
+      "image": "/assets/img/products/brass-pin.jpg",
+      "title": "Brass Pin",
+      "tag": "Pin",
+      "description": "Precision brass pins produced for alignment, positioning, and fastening applications, offering consistent quality and smooth finishing.",
       "filterClass": "inserts"
     }
   ]

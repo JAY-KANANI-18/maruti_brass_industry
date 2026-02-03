@@ -20,13 +20,13 @@ const Certifications = () => {
     <section className="certifications section-padding">
       <div className="container">
         <div className="section-head text-center mb-60">
-          <h6 className="wow fadeInDown">Industry Standards</h6>
+          <h6 className="wow fadeInDown">Global Standards</h6>
           <h4 className="playfont wow flipInX">
-            Certifications & Standards
+            Certifications and Standards
           </h4>
           <p className="mt-10">
-            Our manufacturing processes adhere to international quality standards,
-            ensuring consistent excellence in every component.
+            Our processes align with international quality standards to deliver
+            consistent results across every component.
           </p>
         </div>
 

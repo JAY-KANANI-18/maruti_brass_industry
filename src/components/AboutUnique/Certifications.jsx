@@ -6,17 +6,17 @@ const certs = [
   {
     key: "ISO 9001:2015 Certificate",
     title: "ISO 9001:2015",
-    desc: "Quality management system ensuring consistent processes and continual improvement."
+    desc: "Quality management system focused on consistent processes and continual improvement."
   },
   {
     key: "IATF 16949:2016 Certificate",
     title: "IATF 16949:2016",
-    desc: "Automotive-grade quality standard aligned with zero-defect manufacturing."
+    desc: "Automotive quality standard supporting zero‑defect goals."
   },
   {
     key: "EEPC India Certificate",
     title: "EEPC India",
-    desc: "Recognized member of Engineering Export Promotion Council of India."
+    desc: "Member of the Engineering Export Promotion Council of India."
   }
 ];
 

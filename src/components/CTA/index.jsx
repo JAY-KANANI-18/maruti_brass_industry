@@ -7,10 +7,10 @@ const CTA = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-8">
-            <h3 className="playfont mb-10">Need a Custom Solution?</h3>
+            <h3 className="playfont mb-10">Custom-Built Components to Your Spec</h3>
             <p>
-              Not just Brass, we provide exceptionally engineered products made up of:
-              Copper, Stainless steel, Bronze, Gold plated parts, Plastic parts and much more.
+              Beyond brass, we engineer precision parts in copper, stainless steel, bronze,
+              gold‑plated finishes, plastics and more.
             </p>
           </div>
           <div className="col-lg-4 text-lg-right mt-30 mt-lg-0">

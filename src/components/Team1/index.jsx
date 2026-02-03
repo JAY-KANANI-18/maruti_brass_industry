@@ -35,10 +35,10 @@ class Team1 extends React.Component {
                   Our Leadership Team
                 </h6>
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Leadership
+                  Leadership Team
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
-                  Meet the leaders driving quality, innovation and customer focus at Maruti Brass Industry.
+                  Meet the team guiding quality, innovation, and customer success at Maruti Brass Industry.
                 </p>
                 {this.renderArrows()}
               </div>

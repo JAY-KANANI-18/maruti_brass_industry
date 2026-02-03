@@ -59,15 +59,25 @@ const Portfolio1 = () => {
                       backgroundImage: `url(${item.image})`,
                     }}
                   >
-                    <Link href="/project-details">
-                      <a>
-                        <div className="item-img-overlay valign"></div>
-                      </a>
-                    </Link>
+                    {/* <Link href="/project-details"> */}
+                    <a>
+                      <div className="item-img-overlay">
+                        <div className="overlay-info">
+                          <h6>{item.title}</h6>
+                          <p>{item.description}</p>
+                        </div>
+                      </div>
+                    </a>
+                    {/* </Link> */}
                   </div>
                   <div className="info mt-10">
                     <h5>{item.title}</h5>
                     <span>{item.tag}</span>
+                    <div className="mt-10">
+                      <Link href="/contact">
+                        <a className="btn-curve btn-color text-white"><span>Inquire Now</span></a>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               ))}

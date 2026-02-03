@@ -27,10 +27,10 @@ const SkillsCircle = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="wow fadeInDown" data-wow-delay=".3s">
-                A Framework of Unwavering Quality
+                Our Quality Framework
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Performance Metrics
+                Performance Benchmarks
               </h4>
             </div>
           </div>

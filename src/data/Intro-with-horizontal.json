@@ -3,11 +3,11 @@
     "id": 1,
     "title": {
       "first": "Maruti Brass Industry",
-      "second": "Leading Manufacturer of Precision Brass Components"
+      "second": "Precision Brass Components, Built Right"
     },
     "content": {
-      "first": "IATF 16949:2016 & ISO 9001:2015 certified with 30+ years of excellence.",
-      "second": "Serving automotive, aerospace, sanitary and more."
+      "first": "IATF 16949:2016 and ISO 9001:2015 certified. Proven manufacturing expertise.",
+      "second": "Supplying automotive, aerospace, sanitary and other industries."
     },
     "cta": { "href": "/products", "label": "Explore Our Products" },
     "image": "/assets/img/slid/n/hero1.png"
@@ -16,11 +16,11 @@
     "id": 2,
     "title": {
       "first": "Maruti Brass Industry",
-      "second": "Quality Tools for Precise Measurements"
+      "second": "Quality Tools for Exact Measurement"
     },
     "content": {
-      "first": "Rigorous quality control ensuring zero defects.",
-      "second": "Certified to global standards."
+      "first": "Rigorous quality controls aimed at zero defects.",
+      "second": "Aligned with international standards."
     },
     "cta": { "href": "/quality", "label": "Explore Our Quality Standards" },
     "image": "/assets/img/slid/n/hero2.png"
@@ -29,11 +29,11 @@
     "id": 3,
     "title": {
       "first": "Maruti Brass Industry",
-      "second": "Hi‑Tech Machineries for Precise Engineering"
+      "second": "Advanced Machinery for Precision Engineering"
     },
     "content": {
-      "first": "State-of-the-art CNC & automatic machinery.",
-      "second": "Tolerance control to ±0.01mm."
+      "first": "Modern CNC and automatic lines.",
+      "second": "Tolerances controlled to ±0.01 mm."
     },
     "cta": { "href": "/infrastructure", "label": "See Infrastructure" },
     "image": "/assets/img/slid/n/hero3.png"
@@ -42,11 +42,11 @@
     "id": 4,
     "title": {
       "first": "Maruti Brass Industry",
-      "second": "Efficient Logistics"
+      "second": "Reliable Logistics"
     },
     "content": {
-      "first": "On-time deliveries with export-ready documentation.",
-      "second": "Trusted by clients worldwide."
+      "first": "On-time dispatches with export-ready documentation.",
+      "second": "Trusted by customers across regions."
     },
     "cta": { "href": "/contact", "label": "Request Custom Quote" },
     "image": "/assets/img/slid/n/hero4.png"

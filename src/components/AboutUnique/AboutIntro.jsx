@@ -67,7 +67,7 @@ const AboutIntro = () => {
                   {/* Experience anchor */}
                   <div className="years playfont">
                     <h2>{yearsExp}</h2>
-                    <h5>Years of Manufacturing Excellence</h5>
+                    <h5>Years of Manufacturing Expertise</h5>
                   </div>
                 </div>
               </div>
@@ -76,15 +76,15 @@ const AboutIntro = () => {
               <div className="row mt-30 quick-highlights">
                 <div className="col-sm-6">
                   <div className="item-bx text-center">
-                    <h6 className="mb-5">Production Capability</h6>
-                    <p className="mb-0">Scalable, high-volume precision parts</p>
+                    <h6 className="mb-5">Production Capacity</h6>
+                    <p className="mb-0">Scalable, high‑volume precision manufacturing</p>
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="item-bx text-center">
-                    <h6 className="mb-5">Industries Served</h6>
+                    <h6 className="mb-5">Sectors Served</h6>
                     <p className="mb-0">
-                      Automotive, Electrical, Sanitary & Industrial
+                      Automotive, Electrical, Sanitary, Industrial
                     </p>
                   </div>
                 </div>

@@ -15,7 +15,7 @@ const Footer = ({ classText }) => {
                   src="/assets/img/Logo/SVG/Dark BG Logo.svg"
                   width={200}
                   height={200}
-                  alt=""
+                  alt="Maruti Brass Industry logo"
                 />
               </div>
               <div className="social">
@@ -31,7 +31,7 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Quick Links</h5>
+                <h5>Site Links</h5>
               </div>
               <ul>
                 <li><Link href="/"><a>Home</a></Link></li>
@@ -48,29 +48,31 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Contact Us</h5>
+                <h5>Get in Touch</h5>
               </div>
               <ul>
-                <li>
-                  <span className="icon pe-7s-map-marker"></span>
-                  <div className="cont">
-                    <h6>Office Address</h6>
-                    <p>PLOT NO. 3092 GIDC Phase 2,</p>
-                    <p>Jamnagar, Gujarat - 361006</p>
-                  </div>
+                <li >
+                  <a style={{ display: "flex" }} href="https://maps.app.goo.gl/H6hzxTDAP2htZ3Ty7" target="_blank">
+                    <span className="icon pe-7s-map-marker"></span>
+                    <div className="cont">
+                      <h6>Office</h6>
+                      <p>PLOT NO. 3092 GIDC Phase 2,</p>
+                      <p>Jamnagar, Gujarat - 361006</p>
+                    </div>
+                  </a>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Email Us</h6>
-                    <p>marutibrass1177@gmail.com</p>
+                    <h6>Email</h6>
+                    <p><a href="mailto:marutibrass1177@gmail.com">marutibrass1177@gmail.com</a></p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Call Us</h6>
-                    <p>+91 9265002274</p>
+                    <h6>Phone</h6>
+                    <p><a href="tel:+919265002274">+91 9265002274</a></p>
                   </div>
                 </li>
               </ul>
@@ -87,7 +89,7 @@ const Footer = ({ classText }) => {
 
             <div className="col-md-6 text-center text-md-right">
               <p className="powered-by">
-                Powered by{" "}
+                Website by{" "}
                 <a
                   href="https://axorainfotech.com"
                   target="_blank"

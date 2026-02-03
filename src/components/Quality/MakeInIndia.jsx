@@ -3,15 +3,15 @@ import React from "react";
 const signals = [
   {
     title: "Manufactured in India",
-    desc: "Precision engineering with global export standards",
+    desc: "Precision engineering aligned to global export standards",
   },
   {
     title: "Nation-first Mindset",
-    desc: "Aligned with Make in India & Atmanirbhar Bharat",
+    desc: "Aligned with Make in India and Atmanirbhar Bharat",
   },
   {
     title: "Trusted by MNCs",
-    desc: "Decades of consistent quality and reliability",
+    desc: "Consistent quality and reliability recognized by MNCs",
   },
 ];
 
@@ -26,15 +26,15 @@ const MakeInIndia = () => {
             <div className="india-statement">
               <h6 className="eyebrow">Make in India</h6>
               <h2 className="headline playfont">
-                Engineering India’s Growth<br />with Precision & Pride
+                Advancing India’s Growth<br />with Precision and Pride
               </h2>
               <p className="statement">
-                At Maruti Brass Industry, we don’t just manufacture components —
-                we build confidence, capability, and global competitiveness from
-                Indian soil.
+                At Maruti Brass Industry, we manufacture components and build
+                confidence and capability — strengthening global competitiveness
+                from India.
               </p>
               <p className="closing">
-                Built in India. Trusted Worldwide.
+                Made in India. Trusted worldwide.
               </p>
             </div>
           </div>

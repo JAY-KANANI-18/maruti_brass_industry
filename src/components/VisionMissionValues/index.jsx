@@ -6,24 +6,24 @@ const cards = [
     title: "Our Vision",
     image: "/assets/img/about/our-vision.png",
     text:
-      "To be a globally trusted precision manufacturing partner, known for zero-defect production, scalable capabilities, diversification beyond brass components, and sustainable industrial growth.",
+      "To earn global trust as a precision manufacturing partner — recognized for zero‑defect discipline, scalable capacity, diversification beyond brass, and sustainable growth.",
   },
   {
     id: 2,
     title: "Our Mission",
     image: "/assets/img/about/our-mission.png",
     text:
-      "To deliver uncompromising quality through advanced technology, skilled engineering, disciplined processes, and a relentless focus on customer success.",
+      "Deliver uncompromising quality through advanced technology, skilled engineering, disciplined operations, and an unwavering focus on customer success.",
   },
   {
     id: 3,
     title: "Our Core Values",
     image: "/assets/img/about/our-value.png",
     list: [
-      "Quality Excellence",
-      "Engineering Discipline",
-      "Customer-Centric Thinking",
-      "Integrity & Accountability",
+      "Excellence in Quality",
+      "Engineering Rigor",
+      "Customer First",
+      "Integrity and Accountability",
     ],
   },
 ];
@@ -35,7 +35,7 @@ const VisionMissionValues = () => {
 
         {/* Header */}
         <div className="section-head text-center mb-80">
-          <h6 className="wow fadeInDown">Driven by Purpose</h6>
+          <h6 className="wow fadeInDown">Guided by Purpose</h6>
           <h4 className="playfont wow flipInX">
             Vision • Mission • Core Values
           </h4>

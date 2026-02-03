@@ -42,10 +42,10 @@ a,
   overflow: hidden;
   z-index: 2;
 }
-.contact .form input,
+/* .contact .form input,
 .contact .form textarea {
   color: #fff;
-}
+} */
 .twentytwenty-handle:before,
 .twentytwenty-handle:after {
   content: " ";

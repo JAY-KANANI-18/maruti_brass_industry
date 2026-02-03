@@ -26,11 +26,11 @@ const Home1 = () => {
       <Services1 />
       <CTA />
       <VisionMissionValues />
-      {/* <Portfolio1 /> */}
+      <Portfolio1 />
       <SkillsCircle />
       <Testimonials />
       <Industries />
-      <Team1 />
+      {/* <Team1 /> */}
       {/* <Blogs1 /> */}
       <Contact />
     </LightLayout>
