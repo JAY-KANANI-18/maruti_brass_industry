@@ -57,7 +57,7 @@ const Footer = ({ classText }) => {
                     <span className="icon pe-7s-map-marker"></span>
                     <div className="cont">
                       <h6>Office</h6>
-                      <p>PLOT NO. 3092 GIDC Phase 2,</p>
+                      <p>PLOT NO. 3092 GIDC Phase 3,</p>
                       <p>Jamnagar, Gujarat - 361006</p>
                     </div>
                   </a>

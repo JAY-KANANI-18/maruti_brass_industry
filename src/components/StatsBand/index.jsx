@@ -4,7 +4,7 @@ const items = [
   { id: 1, number: "40+", label: "Clients", icon: "pe-7s-users" },
   { id: 2, number: "50+", label: "Advanced Machinery", icon: "pe-7s-tools" },
   { id: 3, number: "30+", label: "Years Experience", icon: "pe-7s-date" },
-  { id: 4, number: "5M+", label: "Parts Monthly", icon: "pe-7s-config" }
+  { id: 4, number: "50K+", label: "Parts Monthly", icon: "pe-7s-config" }
 ];
 
 const StatsBand = () => {

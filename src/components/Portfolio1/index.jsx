@@ -72,7 +72,7 @@ const Portfolio1 = () => {
                   </div>
                   <div className="info mt-10">
                     <h5>{item.title}</h5>
-                    <span>{item.tag}</span>
+                    {/* <span>{item.tag}</span> */}
                     <div className="mt-10">
                       <Link href="/contact">
                         <a className="btn-curve btn-color text-white"><span>Inquire Now</span></a>

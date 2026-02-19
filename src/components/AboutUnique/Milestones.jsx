@@ -1,35 +1,64 @@
 import React from "react";
-
 const timeline = [
   {
     id: 1,
-    year: "2022",
+    year: "2016",
     title: "Company Founded",
-    text: "Established with a clear focus on precision manufacturing, quality discipline, and customer-centric engineering solutions.",
+    text: "Established with a vision to manufacture precision brass components, focusing on quality workmanship and reliable customer service.",
   },
   {
     id: 2,
-    year: "2022",
-    title: "Infrastructure Setup",
-    text: "Commissioned CNC and automatic machining lines with defined process controls and in-process inspection systems.",
+    year: "2017",
+    title: "Initial Production Setup",
+    text: "Installed conventional and CNC turning machines, developed core manufacturing processes, and began small-batch production.",
   },
   {
     id: 3,
-    year: "2023",
-    title: "First OEM Partnerships",
-    text: "Onboarded domestic OEM and Tier-1 customers, delivering consistent quality and reliable on-time performance.",
+    year: "2018",
+    title: "First Major Customers",
+    text: "Secured long-term partnerships with domestic customers in electrical and plumbing sectors, ensuring consistent quality delivery.",
   },
   {
     id: 4,
-    year: "2024",
-    title: "Process Standardization",
-    text: "Implemented ISO-aligned quality systems, SPC monitoring, and full traceability across critical operations.",
+    year: "2019",
+    title: "Process Improvement",
+    text: "Introduced in-process inspection, tooling standardization, and basic quality documentation to improve yield and consistency.",
   },
   {
     id: 5,
+    year: "2020",
+    title: "Capacity Expansion",
+    text: "Added new CNC machines and secondary operations to support higher volumes and a wider range of brass components.",
+  },
+  {
+    id: 6,
+    year: "2021",
+    title: "Quality System Strengthening",
+    text: "Implemented structured quality checks, traceability for raw materials, and preventive maintenance systems.",
+  },
+  {
+    id: 7,
+    year: "2022",
+    title: "Automation & Infrastructure Upgrade",
+    text: "Commissioned automatic machining lines and improved shop-floor layout to enhance productivity and process control.",
+  },
+  {
+    id: 8,
+    year: "2023",
+    title: "OEM & Tier-1 Engagements",
+    text: "Onboarded OEM and Tier-1 customers, meeting stringent quality requirements and delivery performance standards.",
+  },
+  {
+    id: 9,
+    year: "2024",
+    title: "Process Standardization",
+    text: "Adopted ISO-aligned quality systems, SPC monitoring, and full traceability across critical manufacturing processes.",
+  },
+  {
+    id: 10,
     year: "2025",
     title: "Scale & Capability Expansion",
-    text: "Expanded production capacity, strengthened in-house quality controls, and prepared systems for automotive-grade compliance.",
+    text: "Expanded production capacity, strengthened in-house testing facilities, and prepared systems for automotive and export compliance.",
   },
 ];
 

@@ -37,7 +37,7 @@ const Recognition = () => {
         {/* Time Anchor */}
         <div className="recognition-timeline">
           <span className="line"></span>
-          <span className="year">3+ Years of Trusted Partnership</span>
+          <span className="year">10+ Years of Trusted Partnership</span>
           <span className="line"></span>
         </div>
 
