@@ -55,10 +55,11 @@ const Portfolio1 = () => {
                 >
                   <div
                     className="item-img bg-img wow imago"
-                    style={{
-                      backgroundImage: `url(${item.image})`,
-                    }}
+                  // style={{
+                  //   backgroundImage: `url(  ${item.image})`,
+                  // }}
                   >
+                    <img src={item.image} alt="" height={100} width={100} />
                     {/* <Link href="/project-details"> */}
                     <a>
                       <div className="item-img-overlay">
@@ -75,7 +76,7 @@ const Portfolio1 = () => {
                     {/* <span>{item.tag}</span> */}
                     <div className="mt-10">
                       <Link href="/contact">
-                        <a className="btn-curve btn-color text-white"><span>Inquire Now</span></a>
+                        <a className="spbtn btn-curve btn-color "><span>Inquire Now</span></a>
                       </Link>
                     </div>
                   </div>

@@ -125,6 +125,7 @@ a:hover, span:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .bg-center {
   background-position: center center;
 }
@@ -2213,7 +2214,12 @@ body {
 .portfolio .gallery .items .item-img {
   overflow: hidden;
   position: relative;
-  height: 440px;
+  height: 281px;
+}
+@media (max-width: 768px) {
+  .portfolio .gallery .items .item-img {
+    height: 160px;
+  }
 }
 .portfolio .gallery .items .item-img > a {
   display: block;
@@ -2225,8 +2231,7 @@ body {
 .portfolio .gallery .items .item-img img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -2287,14 +2292,18 @@ body {
   font-weight: 600;
 }
 .portfolio .gallery .items .info span {
-  color: #fff;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.portfolio .gallery .items .info span:hover {
-  color: #c58f33;
+.portfolio .gallery .items .info .spbtn{
+  color: #fff;
+
 }
+.portfolio .gallery .items .info .spbtn:hover {
+  color: #c58f33 ;
+}
+
 .portfolio .gallery.twsty .items {
   width: 50%;
 }
