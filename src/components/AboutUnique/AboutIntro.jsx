@@ -67,7 +67,9 @@ const AboutIntro = () => {
                   {/* Experience anchor */}
                   <div className="years playfont">
                     <h2>{yearsExp}</h2>
-                    <h5>Years of Manufacturing Expertise</h5>
+                    <h5>Years of</h5>
+                    <h5>Manufacturing </h5>
+                    <h5>Expertise</h5>
                   </div>
                 </div>
               </div>

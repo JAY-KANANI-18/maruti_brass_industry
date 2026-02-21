@@ -18,7 +18,8 @@ const AboutUs1 = () => {
                 </div>
                 <div className="years playfont">
                   <h2>{aboutUs1Data.exp.nmb}</h2>
-                  <h5>Years Experience</h5>
+                  <h5>Years </h5>
+                  <h5>Experience</h5>
                 </div>
               </div>
             </div>
